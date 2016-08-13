@@ -4,9 +4,9 @@ class AppState {
   @observable todos = []
 
   constructor() {
-    this.todos.push({ id: 1, text: 'Make dinner', completed: false },
-                    { id: 2, text: 'Do shopping', completed: false },
-                    { id: 3, text: 'Pet cat', completed: false })
+    this.todos.push({ text: 'Make dinner', completed: false },
+                    { text: 'Do shopping', completed: false },
+                    { text: 'Pet cat', completed: false })
   }
 
 }
